@@ -4,7 +4,9 @@
   "author": "Jerome Estiller <jromestiller@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "docker:start": "docker-compose up",
+    "docker:stop": "docker-compose stop"
   },
   "dependencies": {
     "apollo-server-express": "^2.4.8",
