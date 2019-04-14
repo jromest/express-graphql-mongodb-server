@@ -1,6 +1,6 @@
 # express-graphql-mongodb-server
 
-A Node.js and GraphQL powered server using MongoDB as database.
+A Node.js and GraphQL powered server using MongoDB for the database.
 
 ## 🚀 Quick start
 
@@ -59,7 +59,7 @@ A Node.js and GraphQL powered server using MongoDB as database.
 
 ## 🤝 Contributing
 
-I'm barely new to this technology stack so your feedback is highly appreciated. Feel free to create an issue on the areas that needs improvements. Thank you!
+I'm new to this technology stack, so your feedback is highly appreciated. Feel free to create an issue on the areas that need improvements. Thank you!
 
 ## 📄 License
 
