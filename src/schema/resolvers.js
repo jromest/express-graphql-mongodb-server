@@ -1,9 +1,11 @@
 const Cat = require("../model/Cat");
+const User = require("../model/User");
 
 module.exports = resolvers = {
   Query: {
     hello: () => "Hello World",
-    cats: () => Cat.find()
+    cats: () => Cat.find(),
+    allUsers: () => User.find()
   },
   Mutation: {
     createCat: (_, { name }) => {
