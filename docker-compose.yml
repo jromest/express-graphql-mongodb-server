@@ -10,10 +10,8 @@ services:
       - 8000:8000
     depends_on:
       - mongodb
-    restart: always
   mongodb:
     image: mongo:4.1.10
     container_name: mongodb-container
     ports:
       - 27017:27017
-    restart: always
